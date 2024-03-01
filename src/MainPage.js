@@ -35,7 +35,7 @@ function MainPage() {
             </div>
         </div>
         <hr className='h-px mt-4 mb-3 bg-gray-200 border-0 dark:bg-gray-300'/>
-        <div className='flex justify-between gap-1 mx-4 text-gray-500 text-xs'>
+        <div className='flex sm:justify-between gap-4 sm:gap-1 sm:mx-4 text-gray-500 text-xs'>
           <p>Tools</p>
           <p>AWS Builder</p>
           <p>Start Build</p>
@@ -43,7 +43,7 @@ function MainPage() {
           <p>Tooling</p>
           <p>BlueHosting</p>
         </div>
-        <div className='flex gap-2 mt-3 items-center sm:mx-4 text-gray-500 text-xs'>
+        <div className='flex sm:gap-2 gap-1 mt-3 items-center sm:mx-4 text-gray-500 text-xs'>
           <p>Home</p>
           <p className='text-sm'>{`>`}</p>
           <p>Hosting for all</p>
