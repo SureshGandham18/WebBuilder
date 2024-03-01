@@ -43,7 +43,7 @@ function MainPage() {
           <p>Tooling</p>
           <p>BlueHosting</p>
         </div>
-        <div className='flex sm:gap-2 gap-1 mt-3 items-center sm:mx-4 text-gray-500 text-xs'>
+        <div className='flex gap-2  mt-3 items-center sm:mx-4 text-gray-500 text-xs'>
           <p>Home</p>
           <p className='text-sm'>{`>`}</p>
           <p>Hosting for all</p>
